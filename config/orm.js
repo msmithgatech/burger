@@ -1,26 +1,26 @@
-   // Import `connection.js`
+   // IMPORTS the connection.js file
 
 require("./connection.js");
 
    //  Create the methods to execute MySQL commands in the controllers
    //  for listing all burgers, adding a new burger, and updating an existing burger
 
-function objToSql(ob) {
-    var ary = [];
+// function objToSql(ob) {
+//     var ary = [];
     // PUSH THE KEY/VALUE PAIRS AS A STRING INTO THE variable ARY
-    for (var key in ob) {
-        var value = ob[key];
+    // for (var key in ob) {
+    //     var value = ob[key];
                    // SKIP HIDDEN PROPERTIES
-        if (Object.hasOwnProperty.call(ob, key)) {
+        // if (Object.hasOwnProperty.call(ob, key)) {
                    //  PUT QUOTES AROUND STRINGS WITH SPACES
-            if (typeof value === "string" && value.indexOf(" ") >= 0) {
-                value = "'" + value + "'";
-            }
+            // if (typeof value === "string" && value.indexOf(" ") >= 0) {
+            //     value = "'" + value + "'";
+            // }
                   // {devoured: true} => ["devoured=true"]
-            ary.push(key + "=" + value);
-        }
-    }
-}
+            // ary.push(key + "=" + value);
+        // }
+    // }
+// }
 
 
 var orm = {

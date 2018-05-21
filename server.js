@@ -1,20 +1,18 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 
-var mySQL = require("mysql");
-
-var path = require("path");
 var app = express();
-var PORT = 8080;
+var PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
+app.use("./public");
+app.use("./views");
 
 //===================
 //   ROUTES
 
-
+ app.route("./orm.js");
 
 
 
