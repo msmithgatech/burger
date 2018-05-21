@@ -1,0 +1,90 @@
+h1 {
+  margin-top: 35px;
+  color: midnightblue;
+}
+
+
+h2 {
+  margin-top: 20px;
+  color: midnightblue;
+}
+
+
+.picimgs {
+  margin-top: 20px;
+  display: inline-block;
+  height: 550px;
+}
+
+
+.brgrBlock {
+  height: 16%;
+}
+
+/*
+#menuBtns {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+.selAllBtn {
+  margin-left: 18px;
+  width: 350px;
+  height: 95px;
+  font-size: 36px;
+  color: lightyellow;
+  background-color: rebeccapurple;
+}
+
+
+.selOneBtn {
+  width: 350px;
+  height: 95px;
+  font-size: 36px;
+  color: lightyellow;
+  background-color: olivedrab;
+}
+
+
+.updOneBtn {
+  width: 350px;
+  height: 95px;
+  font-size: 36px;
+  color: lightyellow;
+  background-color: tomato;
+}
+
+
+#mainfoot {
+  margin-top: 65px;
+  font-size: 30px;
+  color: midnightblue;
+}
+
+
+#leftSide {
+  height: 500px;
+  width: 500px;
+  background-color: lemonchiffon;
+}
+
+
+#riteSide {
+  height:500px;
+  width: 500px;
+  background-color: moccasin;
+}
+
+
+#dvourBtn {
+  font-size: 24px;
+  color: burlywood;
+  background-color: saddlebrown;
+}
+
+#dvourFoot {
+  font-size: 24px;
+  color: midnightblue;
+}
+*/

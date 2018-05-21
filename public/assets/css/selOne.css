@@ -1,0 +1,18 @@
+
+body {
+    /*height: 500px;*/
+    /*width: 500px;*/
+    background-color: lemonchiffon;
+}
+
+
+#selOneSubmit {
+    font-size: 24px;
+    color: burlywood;
+    background-color: saddlebrown;
+}
+
+#selOneFoot {
+    font-size: 24px;
+    color: midnightblue;
+}

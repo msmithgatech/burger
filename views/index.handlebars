@@ -1,0 +1,37 @@
+<h3>Click to devour a burger</h3>
+
+ <section class="container-fluid">
+    <div class="row">
+              <!--  LEFT SIDE OF PAGE;  DISPLAYS ALL DEVOURED BURGERS  -->
+       <div id="leftSide" class="column col-md-6">
+          <div action="/devour">
+             <ul>
+                {{#each burgerMenu WHERE devoured = "true"}}     <!-- selecting Name or Menu ?  -->
+                   <li>
+                      <p>ID: {{this.id}}</p>
+                      <p>Burger: {{this.burgerName}}</p>
+                   </li>
+                {{/each}}
+             </ul>
+          </div>
+       </div>     <!--  END LEFT COLUMN  -->
+
+               <!--  RIGHT SIDE OF PAGE;  DISPLAYS ALL UNDEVOURED BURGERS  -->
+       <div id="riteSide" class="column col-md-6">
+          <div action="/selectAll">
+             <ul>
+                {{#each burgerName WHERE devoured = "false"}}    <!-- selecting Name or Menu ?  -->
+                   <li>
+                      <p>ID: {{this.id}}</p>
+                      <p>Burger: {{this.burgerName}}</p>
+                   </li>
+                   <button id="dvourBtn" type="submit">Devour</button>
+                {{/each}}
+            </ul>
+          </div>
+       </div>    <!--  END RIGHT COLUMN  -->
+
+    </div>     <!--  END SINGLE ROW DIV  -->
+
+ </section>
+

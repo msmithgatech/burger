@@ -1,0 +1,30 @@
+h3 {
+    margin-top: 35px;
+    color: midnightblue;
+}
+
+
+#leftSide {
+    height: 500px;
+    width: 500px;
+    background-color: lemonchiffon;
+}
+
+
+#riteSide {
+    height:500px;
+    width: 500px;
+    background-color: moccasin;
+}
+
+
+#dvourBtn {
+    font-size: 24px;
+    color: burlywood;
+    background-color: saddlebrown;
+}
+
+#selAllFoot {
+    font-size: 24px;
+    color: midnightblue;
+}

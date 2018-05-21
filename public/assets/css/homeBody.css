@@ -1,0 +1,39 @@
+#menuBtns {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.selAllBtn {
+    margin-left: 18px;
+    width: 350px;
+    height: 95px;
+    font-size: 36px;
+    color: lightyellow;
+    background-color: rebeccapurple;
+}
+
+
+.selOneBtn {
+    width: 350px;
+    height: 95px;
+    font-size: 36px;
+    color: lightyellow;
+    background-color: olivedrab;
+}
+
+
+.updOneBtn {
+    width: 350px;
+    height: 95px;
+    font-size: 36px;
+    color: lightyellow;
+    background-color: tomato;
+}
+
+
+#mainfoot {
+    margin-top: 65px;
+    font-size: 30px;
+    color: midnightblue;
+}
